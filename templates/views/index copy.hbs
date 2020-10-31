@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>TODOS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/screen.css">
+	</head>
+	
+	<body>
+		
+		<header class="section">
+			
+			<!-- container -->
+			<div class="container">
+				<h1>TODOs App</h1>
+				<p class="hide-small">Tasks Tracker</p>
+
+				<nav class="site-nav">
+					<ul class="group">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">More Tab</a></li>
+					</ul>
+				</nav>
+			</div><!-- /container -->
+			
+		</header>
+		
+		<div class="content-area group section">
+			
+			<!-- container -->
+			<div class="container">
+				
+				<!-- row -->
+				<div class="row">
+					
+					<!-- col -->
+					<div class="col col-md-8 push-down-sm">
+						
+						<h2>Welcome to TODOs APP</h2>
+							
+						<!-- row -->
+						<div class="row boxes">
+							
+							<!-- col -->
+							<div class="col col-sm-6 col-lg-3">
+								<!-- box-a -->
+								<div class="box-a">
+									<p>Key feature 1</p>
+								</div><!-- /box-a -->
+							</div><!-- /col -->
+							
+							<!-- col -->
+							<div class="col col-sm-6 col-lg-3">
+								<!-- box-a -->
+								<div class="box-a">
+									<p>Key feature 2</p>
+								</div><!-- /box-a -->
+							</div><!-- /col -->
+							
+							<!-- col -->
+							<div class="col col-sm-6 col-lg-3">
+								<!-- box-a -->
+								<div class="box-a">
+									<p>Key feature 3</p>
+								</div><!-- /box-a -->
+							</div><!-- /col -->
+							
+							<!-- col -->
+							<div class="col col-sm-6 col-lg-3">
+								<!-- box-a -->
+								<div class="box-a">
+									<p>Key feature 4</p>
+								</div><!-- /box-a -->
+							</div><!-- /col -->
+							
+						</div><!-- /row -->
+												
+						<img src="images/star.png" class="star">
+						
+					</div>
+					
+					<div class="col col-md-4 sidebar">
+						<input id="search-text" type="text" placeholder="Filter todos">
+        				<label>
+        				    <input type="checkbox" id="hide-completed"> Hide completed
+        				</label>
+        				<div id="todos"></div>
+        				<div id="todos"></div>
+        				<form id="new-todo">
+        				    <input type="text" placeholder="Something to do" name="text">
+        				    <button>Add Todo</button>
+        				</form>
+        				<script src="http://wzrd.in/standalone/uuid%2Fv4@latest"></script>
+        				<script src="/js/todo-functions.js"></script>
+        				<script src="/js/todo-app.js"></script>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<p>&copy; 2020 - Piyush Sharma</p>
+		</footer>
+		
+		
+	</body>
+	
+</html>
