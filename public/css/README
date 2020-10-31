@@ -1,0 +1,22 @@
+1) Initialize package.json
+in root folder : npm init -y
+
+2) update the command in "scripts/test" 
+    node app/index.js
+
+3) install node modules
+npm install express
+npm install hbs
+
+4) from a terminal, run
+npm run test
+
+5) Deployment (Heroku)
+heroku login
+git init
+git add .
+git commit -m "Initial commit"
+heroku create <app_name>
+git push heroku master
+
+
